@@ -1,10 +1,9 @@
 $(document).ready(function(){
   $("button").click(function(){
     $("div").animate({
-      left: '250px',
-      opacity: '0.5',
-      height: '150px',
-      width: '150px'
+       left: '250px',
+       height: '+=150px',
+       width: '+=150px'
     });
   });
 });
